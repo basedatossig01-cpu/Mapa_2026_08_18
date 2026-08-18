@@ -5,7 +5,7 @@
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="cedula" type="string"/>
       <SimpleField name="Cédula_1" type="double"/>
-      <SimpleField name="N_" type="double"/>
+      <SimpleField name="N" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
@@ -29,6 +29,7 @@
       <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Adjudicado" type="string"/>
@@ -40,6 +41,7 @@
       <SimpleField name="Estado_FAO" type="string"/>
       <SimpleField name="Etapa_de_i" type="string"/>
       <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
       <SimpleField name="Cumple_sup" type="string"/>
       <SimpleField name="Estado_mon" type="string"/>
       <SimpleField name="Situaci_12" type="string"/>
@@ -53,169 +55,10 @@
       <Placemark id="Distrito_CARAYAO.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
-            <SimpleData name="Cédula">5391373.00000000000</SimpleData>
-            <SimpleData name="cedula">5391373</SimpleData>
-            <SimpleData name="Cédula_1">5391373.00000000000</SimpleData>
-            <SimpleData name="N_">136.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">JUSTO VIDAL BOGADO</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">CARAYAO</SimpleData>
-            <SimpleData name="Localidad">SANTA CATALINA</SimpleData>
-            <SimpleData name="Teléfono">0984949423</SimpleData>
-            <SimpleData name="Vivienda_L">-25.17438620000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.31638110000</SimpleData>
-            <SimpleData name="Superficie">1.00000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-25.17519300000</SimpleData>
-            <SimpleData name="Parcela_Lo">-56.31602029000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">23.93620370370</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">136</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -56.3160202920199,-25.1751930003388,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_CARAYAO.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
-            <SimpleData name="Cédula">1920304.00000000000</SimpleData>
-            <SimpleData name="cedula">1920304</SimpleData>
-            <SimpleData name="Cédula_1">1920304.00000000000</SimpleData>
-            <SimpleData name="N_">143.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ESTHER LOPEZ DE DIAZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">CARAYAO</SimpleData>
-            <SimpleData name="Localidad">CALLE 14 MIL</SimpleData>
-            <SimpleData name="Teléfono">0973658669</SimpleData>
-            <SimpleData name="Vivienda_L">-25.18991550000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.23819240000</SimpleData>
-            <SimpleData name="Superficie">1.00000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-25.18874306000</SimpleData>
-            <SimpleData name="Parcela_Lo">-56.23839095000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">23.93622685190</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">143</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -56.2383909513403,-25.1887430571652,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_CARAYAO.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
-            <SimpleData name="Cédula">6115549.00000000000</SimpleData>
-            <SimpleData name="cedula">6115549</SimpleData>
-            <SimpleData name="Cédula_1">6115549.00000000000</SimpleData>
-            <SimpleData name="N_">134.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SONIA RAQUEL FERNANDEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">CARAYAO</SimpleData>
-            <SimpleData name="Localidad">CRISTO REY</SimpleData>
-            <SimpleData name="Teléfono">0972932449</SimpleData>
-            <SimpleData name="Vivienda_L">-25.19038930000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.29368310000</SimpleData>
-            <SimpleData name="Superficie">1.00000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-25.19753344000</SimpleData>
-            <SimpleData name="Parcela_Lo">-56.29336915000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">23.93616898150</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">134</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -56.2933691472241,-25.1975334384066,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_CARAYAO.4">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
             <SimpleData name="Cédula">2117840.00000000000</SimpleData>
             <SimpleData name="cedula">2117840</SimpleData>
             <SimpleData name="Cédula_1">2117840.00000000000</SimpleData>
-            <SimpleData name="N_">125.00000000000</SimpleData>
+            <SimpleData name="N">125.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">AMELIA ESTER AGUERO DE AMARILLA</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -238,6 +81,7 @@
             <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
@@ -248,6 +92,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -262,13 +107,130 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_CARAYAO.5">
+      <Placemark id="Distrito_CARAYAO.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
+            <SimpleData name="Cédula">1920304.00000000000</SimpleData>
+            <SimpleData name="cedula">1920304</SimpleData>
+            <SimpleData name="Cédula_1">1920304.00000000000</SimpleData>
+            <SimpleData name="N">143.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ESTHER LOPEZ DE DIAZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
+            <SimpleData name="Distrito">CARAYAO</SimpleData>
+            <SimpleData name="Localidad">CALLE 14 MIL</SimpleData>
+            <SimpleData name="Teléfono">0973658669</SimpleData>
+            <SimpleData name="Vivienda_L">-25.18991550000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.23819240000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.18874306000</SimpleData>
+            <SimpleData name="Parcela_Lo">-56.23839095000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">23.93622685190</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">143</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.2383909513403,-25.1887430571652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_CARAYAO.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
+            <SimpleData name="Cédula">1988473.00000000000</SimpleData>
+            <SimpleData name="cedula">1988473</SimpleData>
+            <SimpleData name="Cédula_1">1988473.00000000000</SimpleData>
+            <SimpleData name="N">124.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">WILMA ROMERO DE JARA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
+            <SimpleData name="Distrito">CARAYAO</SimpleData>
+            <SimpleData name="Localidad">ARROYO HONDO</SimpleData>
+            <SimpleData name="Teléfono">0975426757</SimpleData>
+            <SimpleData name="Vivienda_L">-25.13612250000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.25613180000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.13615118000</SimpleData>
+            <SimpleData name="Parcela_Lo">-56.25687769000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">#N/A</SimpleData>
+            <SimpleData name="F__de_pren">#N/A</SimpleData>
+            <SimpleData name="Estado_FAO">Verificar posible desercion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/14</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Observaci">La participante cambi? de residencia y dej? su parcela.</SimpleData>
+            <SimpleData name="Dias_trans">2.38583538195</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">124</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -56.2569151409972,-25.1364359105793,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -56.2567566564196,-25.1352310218863,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_CARAYAO.4">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
             <SimpleData name="Cédula">5636287.00000000000</SimpleData>
             <SimpleData name="cedula">5636287</SimpleData>
             <SimpleData name="Cédula_1">5636287.00000000000</SimpleData>
-            <SimpleData name="N_">133.00000000000</SimpleData>
+            <SimpleData name="N">133.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">MARIA AUXILIADORA CANTERO AGUERO</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -291,6 +253,7 @@
             <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
@@ -301,6 +264,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -312,6 +276,116 @@
         <Point>
           <coordinates>
             -56.2558014162925,-25.1940939688393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_CARAYAO.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
+            <SimpleData name="Cédula">6115549.00000000000</SimpleData>
+            <SimpleData name="cedula">6115549</SimpleData>
+            <SimpleData name="Cédula_1">6115549.00000000000</SimpleData>
+            <SimpleData name="N">134.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SONIA RAQUEL FERNANDEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
+            <SimpleData name="Distrito">CARAYAO</SimpleData>
+            <SimpleData name="Localidad">CRISTO REY</SimpleData>
+            <SimpleData name="Teléfono">0972932449</SimpleData>
+            <SimpleData name="Vivienda_L">-25.19038930000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.29368310000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.19753344000</SimpleData>
+            <SimpleData name="Parcela_Lo">-56.29336915000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">23.93616898150</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">134</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.2933691472241,-25.1975334384066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_CARAYAO.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_CARAYAO.schema">
+            <SimpleData name="Cédula">5391373.00000000000</SimpleData>
+            <SimpleData name="cedula">5391373</SimpleData>
+            <SimpleData name="Cédula_1">5391373.00000000000</SimpleData>
+            <SimpleData name="N">136.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JUSTO VIDAL BOGADO</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
+            <SimpleData name="Distrito">CARAYAO</SimpleData>
+            <SimpleData name="Localidad">SANTA CATALINA</SimpleData>
+            <SimpleData name="Teléfono">0984949423</SimpleData>
+            <SimpleData name="Vivienda_L">-25.17438620000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.31638110000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.17519300000</SimpleData>
+            <SimpleData name="Parcela_Lo">-56.31602029000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/24</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">23.93620370370</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">136</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.3160202920199,-25.1751930003388,0
           </coordinates>
         </Point>
       </Placemark>

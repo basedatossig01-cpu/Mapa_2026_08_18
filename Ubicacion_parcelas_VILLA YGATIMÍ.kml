@@ -5,7 +5,7 @@
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="cedula" type="string"/>
       <SimpleField name="Cédula_1" type="double"/>
-      <SimpleField name="N_" type="double"/>
+      <SimpleField name="N" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
@@ -29,6 +29,7 @@
       <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Adjudicado" type="string"/>
@@ -40,6 +41,7 @@
       <SimpleField name="Estado_FAO" type="string"/>
       <SimpleField name="Etapa_de_i" type="string"/>
       <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
       <SimpleField name="Cumple_sup" type="string"/>
       <SimpleField name="Estado_mon" type="string"/>
       <SimpleField name="Situaci_12" type="string"/>
@@ -53,222 +55,10 @@
       <Placemark id="Distrito_VILLA_YGATIM__.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">5837233.00000000000</SimpleData>
-            <SimpleData name="cedula">5837233</SimpleData>
-            <SimpleData name="Cédula_1">5837233.00000000000</SimpleData>
-            <SimpleData name="N_">29.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CELESTINA NAMBUGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0986556942</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20866950000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67615750000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.19918591000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.67656430000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">10.15275462960</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">29</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6765642975116,-24.1991859125993,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">1608818.00000000000</SimpleData>
-            <SimpleData name="cedula">1608818</SimpleData>
-            <SimpleData name="Cédula_1">1608818.00000000000</SimpleData>
-            <SimpleData name="N_">24.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">TOMASA TORAGI DUARTE</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ARROYO BANDERA</SimpleData>
-            <SimpleData name="Teléfono">0982039422</SimpleData>
-            <SimpleData name="Vivienda_L">-24.10271940000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.55082770000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.11544162000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.54658099000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">23/6/2026</SimpleData>
-            <SimpleData name="F__de_pren">70</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/21</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
-            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones t?cnicas establecidas. Se visualiza presencia de malezas invasoras. La reposici?n se realiz? en una sola parte de la parcela,</SimpleData>
-            <SimpleData name="Dias_trans">26.40922453700</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">24</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5465809903674,-24.1154416152123,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">4173682.00000000000</SimpleData>
-            <SimpleData name="cedula">4173682</SimpleData>
-            <SimpleData name="Cédula_1">4173682.00000000000</SimpleData>
-            <SimpleData name="N_">34.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ANTONIA MBYVANGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">No tiene</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20920180000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67851560000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21016055000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.67837013000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">10.21402777780</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">34</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6783701291937,-24.2101605450795,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.4">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6314557.00000000000</SimpleData>
-            <SimpleData name="cedula">6314557</SimpleData>
-            <SimpleData name="Cédula_1">6314557.00000000000</SimpleData>
-            <SimpleData name="N_">35.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">DORKA KREMBEGI TAKUANGI MBYVANGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0983753324</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20915390000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67881700000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21024331000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.67932934000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">10.22151620370</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">35</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6793293381534,-24.210243312137,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.5">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
             <SimpleData name="Cédula">6734893.00000000000</SimpleData>
             <SimpleData name="cedula">6734893</SimpleData>
             <SimpleData name="Cédula_1">6734893.00000000000</SimpleData>
-            <SimpleData name="N_">44.00000000000</SimpleData>
+            <SimpleData name="N">44.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">ADRIANA VERA BENITEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -291,6 +81,7 @@
             <SimpleData name="Grupo_de_P">H-P5-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -301,6 +92,7 @@
             <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/27</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
             <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones t?cnicas establecidas. Se visualiza  quema accidental de la misma y se sugiere reposici?n total de la parcela.</SimpleData>
@@ -315,649 +107,13 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.6">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6755689.00000000000</SimpleData>
-            <SimpleData name="cedula">6755689</SimpleData>
-            <SimpleData name="Cédula_1">6755689.00000000000</SimpleData>
-            <SimpleData name="N_">40.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">FATIMA MARTINEZ GONZALEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ARROYO MOKOI - YVA POTY</SimpleData>
-            <SimpleData name="Teléfono">No tiene</SimpleData>
-            <SimpleData name="Vivienda_L">-24.03677500000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.53057670000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.03823207000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.53018200000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P5-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">16/7/2026</SimpleData>
-            <SimpleData name="F__de_pren">20</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/25</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
-            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones t?cnicas establecidas.  Se evidencia incendio accidental de la parcela por lo que se sugiere reposici?n total de plantines de e</SimpleData>
-            <SimpleData name="Dias_trans">22.31490740740</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">40</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5301820012279,-24.0382320666118,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.7">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6349396.00000000000</SimpleData>
-            <SimpleData name="cedula">6349396</SimpleData>
-            <SimpleData name="Cédula_1">6349396.00000000000</SimpleData>
-            <SimpleData name="N_">28.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">FATIMA CHERYGI FUAKYMBAGI FAAGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0985223081</SimpleData>
-            <SimpleData name="Vivienda_L">-24.22229600000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.71191840000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22036306000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.71099713000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P1-P4P4-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/14</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">33.44650462960</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">28</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7109971308623,-24.2203630580843,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.8">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6084260.00000000000</SimpleData>
-            <SimpleData name="cedula">6084260</SimpleData>
-            <SimpleData name="Cédula_1">6084260.00000000000</SimpleData>
-            <SimpleData name="N_">38.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ESMILDA ROJAS SANTOS</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0986503749</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21446500000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.66726170000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21847930000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70881518000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.60074074070</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">38</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7088151848305,-24.218479301503,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.9">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6780460.00000000000</SimpleData>
-            <SimpleData name="cedula">6780460</SimpleData>
-            <SimpleData name="Cédula_1">6780460.00000000000</SimpleData>
-            <SimpleData name="N_">25.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ESTERVINA MBRIKUGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ARROYO BANDERA</SimpleData>
-            <SimpleData name="Teléfono">0985571899</SimpleData>
-            <SimpleData name="Vivienda_L">-24.10396740000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.54881460000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.10573852000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.54420550000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">3/3/2026</SimpleData>
-            <SimpleData name="F__de_pren">60</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/21</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
-            <SimpleData name="Situaci_12">En el momento de la fiscalizaci?n la parcela se encuentra  libre de malezas, pero los plantines nativos fueron  perjudicando por la pasada de rastras que elimin? casi la totalidad adem?s con el da?o que le caus? la aplicaci?n de  herbicidas bajo un</SimpleData>
-            <SimpleData name="Dias_trans">26.42682870370</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">25</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5442054958449,-24.1057385238356,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.10">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6349340.00000000000</SimpleData>
-            <SimpleData name="cedula">6349340</SimpleData>
-            <SimpleData name="Cédula_1">6349340.00000000000</SimpleData>
-            <SimpleData name="N_">207.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LIZ MABEL CHEJUGI JAVAGI VYGYGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">1234567890</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21688670000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.66428000000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21926775000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70654302000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P3-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">Si</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.59611111110</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">207</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7065430211186,-24.219267750888,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.11">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">7758241.00000000000</SimpleData>
-            <SimpleData name="cedula">7758241</SimpleData>
-            <SimpleData name="Cédula_1">7758241.00000000000</SimpleData>
-            <SimpleData name="N_">208.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CERAFINA  TATUGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">1234567890</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20869830000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67762330000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21935191000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70903585000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P3-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">Si</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.59479166670</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">208</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7090358470288,-24.2193519081127,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.12">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">5345309.00000000000</SimpleData>
-            <SimpleData name="cedula">5345309</SimpleData>
-            <SimpleData name="Cédula_1">5345309.00000000000</SimpleData>
-            <SimpleData name="N_">23.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">GLORIA KAJAMINIGI MBEPEGI EIRAGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0984063105</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21082870000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67153700000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21060943000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.67106057000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/20</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">27.50980324070</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">23</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6710605729574,-24.2106094334589,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.13">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6349365.00000000000</SimpleData>
-            <SimpleData name="cedula">6349365</SimpleData>
-            <SimpleData name="Cédula_1">6349365.00000000000</SimpleData>
-            <SimpleData name="N_">43.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_"><![CDATA[RAFAELA KRY'YPURANGI]]></SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0985942900</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21042980000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67354820000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22072224000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.71217638000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.52797453700</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">43</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7121763766683,-24.2207222406005,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.14">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6740074.00000000000</SimpleData>
-            <SimpleData name="cedula">6740074</SimpleData>
-            <SimpleData name="Cédula_1">6740074.00000000000</SimpleData>
-            <SimpleData name="N_">32.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ELIZABETH CHACHUGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0985602203</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21150140000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67149710000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.19857705000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.67660800000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">10.17291666670</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">32</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6766079956229,-24.1985770505241,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.15">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">7727132.00000000000</SimpleData>
-            <SimpleData name="cedula">7727132</SimpleData>
-            <SimpleData name="Cédula_1">7727132.00000000000</SimpleData>
-            <SimpleData name="N_">46.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">GUZMAN ANTOLIANO TUKAMPURANGI</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0986161004</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21291370000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67022160000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21986722000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70822628000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.59356481480</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">46</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7082262820007,-24.219867222158,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.16">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">3534955.00000000000</SimpleData>
-            <SimpleData name="cedula">3534955</SimpleData>
-            <SimpleData name="Cédula_1">3534955.00000000000</SimpleData>
-            <SimpleData name="N_">42.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">JOAQUIN ACHIPURANGI</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0984156203</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21286910000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67015280000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.21920349000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70724073000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.59968750000</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">42</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7072407272551,-24.2192034882722,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.17">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">8052985.00000000000</SimpleData>
-            <SimpleData name="cedula">8052985</SimpleData>
-            <SimpleData name="Cédula_1">8052985.00000000000</SimpleData>
-            <SimpleData name="N_">37.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">NELLIDA FAGI CHEVUGI FAGI</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">No tiene</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21177650000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67122220000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22271205000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70754129000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.52806712960</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">37</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7075412892454,-24.2227120496752,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.18">
+      <Placemark id="Distrito_VILLA_YGATIM__.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
             <SimpleData name="Cédula">7297215.00000000000</SimpleData>
             <SimpleData name="cedula">7297215</SimpleData>
             <SimpleData name="Cédula_1">7297215.00000000000</SimpleData>
-            <SimpleData name="N_">36.00000000000</SimpleData>
+            <SimpleData name="N">36.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">ROGELIA CARDOZO GARCIA</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -980,6 +136,7 @@
             <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
             <SimpleData name="Jornales">4.00000000000</SimpleData>
             <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -990,6 +147,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -1004,13 +162,398 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.19">
+      <Placemark id="Distrito_VILLA_YGATIM__.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">8052985.00000000000</SimpleData>
+            <SimpleData name="cedula">8052985</SimpleData>
+            <SimpleData name="Cédula_1">8052985.00000000000</SimpleData>
+            <SimpleData name="N">37.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NELLIDA FAGI CHEVUGI FAGI</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">No tiene</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21177650000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67122220000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22271205000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70754129000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.52806712960</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">37</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7075412892454,-24.2227120496752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">7727132.00000000000</SimpleData>
+            <SimpleData name="cedula">7727132</SimpleData>
+            <SimpleData name="Cédula_1">7727132.00000000000</SimpleData>
+            <SimpleData name="N">46.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">GUZMAN ANTOLIANO TUKAMPURANGI</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0986161004</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21291370000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67022160000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21986722000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70822628000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.59356481480</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">46</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7082262820007,-24.219867222158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">3534955.00000000000</SimpleData>
+            <SimpleData name="cedula">3534955</SimpleData>
+            <SimpleData name="Cédula_1">3534955.00000000000</SimpleData>
+            <SimpleData name="N">42.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JOAQUIN ACHIPURANGI</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0984156203</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21286910000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67015280000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21920349000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70724073000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.59968750000</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">42</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7072407272551,-24.2192034882722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6084260.00000000000</SimpleData>
+            <SimpleData name="cedula">6084260</SimpleData>
+            <SimpleData name="Cédula_1">6084260.00000000000</SimpleData>
+            <SimpleData name="N">38.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ESMILDA ROJAS SANTOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0986503749</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21446500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66726170000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21847930000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70881518000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.60074074070</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">38</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7088151848305,-24.218479301503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">1608818.00000000000</SimpleData>
+            <SimpleData name="cedula">1608818</SimpleData>
+            <SimpleData name="Cédula_1">1608818.00000000000</SimpleData>
+            <SimpleData name="N">24.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">TOMASA TORAGI DUARTE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ARROYO BANDERA</SimpleData>
+            <SimpleData name="Teléfono">0982039422</SimpleData>
+            <SimpleData name="Vivienda_L">-24.10271940000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.55082770000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.11544162000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.54658099000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">SI</SimpleData>
+            <SimpleData name="Fecha_de_M">23/6/2026</SimpleData>
+            <SimpleData name="F__de_pren">70</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/21</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
+            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones t?cnicas establecidas. Se visualiza presencia de malezas invasoras. La reposici?n se realiz? en una sola parte de la parcela,</SimpleData>
+            <SimpleData name="Dias_trans">26.40922453700</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">24</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.5465809903674,-24.1154416152123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6349340.00000000000</SimpleData>
+            <SimpleData name="cedula">6349340</SimpleData>
+            <SimpleData name="Cédula_1">6349340.00000000000</SimpleData>
+            <SimpleData name="N">207.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LIZ MABEL CHEJUGI JAVAGI VYGYGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">1234567890</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21688670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66428000000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21926775000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70654302000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P3-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">Si</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.59611111110</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">207</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7065430211186,-24.219267750888,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6349365.00000000000</SimpleData>
+            <SimpleData name="cedula">6349365</SimpleData>
+            <SimpleData name="Cédula_1">6349365.00000000000</SimpleData>
+            <SimpleData name="N">43.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_"><![CDATA[RAFAELA KRY'YPURANGI]]></SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0985942900</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21042980000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67354820000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22072224000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.71217638000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.52797453700</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">43</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7121763766683,-24.2207222406005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.10">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
             <SimpleData name="Cédula">4971407.00000000000</SimpleData>
             <SimpleData name="cedula">4971407</SimpleData>
             <SimpleData name="Cédula_1">4971407.00000000000</SimpleData>
-            <SimpleData name="N_">41.00000000000</SimpleData>
+            <SimpleData name="N">41.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">SERGIO LUIS FRANCO VELAZQUEZ</SimpleData>
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -1033,6 +576,7 @@
             <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
             <SimpleData name="Jornales">4.00000000000</SimpleData>
             <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -1043,6 +587,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -1057,14 +602,14 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.20">
+      <Placemark id="Distrito_VILLA_YGATIM__.11">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">6860001.00000000000</SimpleData>
-            <SimpleData name="cedula">6860001</SimpleData>
-            <SimpleData name="Cédula_1">6860001.00000000000</SimpleData>
-            <SimpleData name="N_">30.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SARA CHIVURAGI</SimpleData>
+            <SimpleData name="Cédula">6740074.00000000000</SimpleData>
+            <SimpleData name="cedula">6740074</SimpleData>
+            <SimpleData name="Cédula_1">6740074.00000000000</SimpleData>
+            <SimpleData name="N">32.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ELIZABETH CHACHUGI</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
@@ -1074,18 +619,19 @@
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
             <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0984178761</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20872690000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67612500000</SimpleData>
+            <SimpleData name="Teléfono">0985602203</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21150140000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67149710000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22341739000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70819753000</SimpleData>
+            <SimpleData name="Parcela_La">-24.19857705000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.67660800000</SimpleData>
             <SimpleData name="Grupo_Impl">G2</SimpleData>
             <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
             <SimpleData name="Jornales">4.00000000000</SimpleData>
             <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -1095,29 +641,140 @@
             <SimpleData name="F__de_pren">-</SimpleData>
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.52811342590</SimpleData>
+            <SimpleData name="Dias_trans">10.17291666670</SimpleData>
             <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">30</SimpleData>
+            <SimpleData name="OBJECTID_1">32</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.7081975296101,-24.2234173937429,0
+            -55.6766079956229,-24.1985770505241,0
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.21">
+      <Placemark id="Distrito_VILLA_YGATIM__.12">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">5170881.00000000000</SimpleData>
-            <SimpleData name="cedula">5170881</SimpleData>
-            <SimpleData name="Cédula_1">5170881.00000000000</SimpleData>
-            <SimpleData name="N_">206.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">VENICIA KUAREMINIGI CHACHUGI TORANGI</SimpleData>
+            <SimpleData name="Cédula">6755689.00000000000</SimpleData>
+            <SimpleData name="cedula">6755689</SimpleData>
+            <SimpleData name="Cédula_1">6755689.00000000000</SimpleData>
+            <SimpleData name="N">40.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FATIMA MARTINEZ GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ARROYO MOKOI - YVA POTY</SimpleData>
+            <SimpleData name="Teléfono">No tiene</SimpleData>
+            <SimpleData name="Vivienda_L">-24.03677500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.53057670000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.03823207000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.53018200000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P5-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">16/7/2026</SimpleData>
+            <SimpleData name="F__de_pren">20</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/25</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
+            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones t?cnicas establecidas.  Se evidencia incendio accidental de la parcela por lo que se sugiere reposici?n total de plantines de e</SimpleData>
+            <SimpleData name="Dias_trans">22.31490740740</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">40</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.5301820012279,-24.0382320666118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">5797984.00000000000</SimpleData>
+            <SimpleData name="cedula">5797984</SimpleData>
+            <SimpleData name="Cédula_1">5797984.00000000000</SimpleData>
+            <SimpleData name="N">45.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MAGDALENA VERA PEREIRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG TEKOHA KA AGUY PORA POTY</SimpleData>
+            <SimpleData name="Teléfono">0986940715</SimpleData>
+            <SimpleData name="Vivienda_L">-24.23038830000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.63568060000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.23598390000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.63235894000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">20/2/2026</SimpleData>
+            <SimpleData name="F__de_pren">40</SimpleData>
+            <SimpleData name="Estado_FAO">Verificar posible desercion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/06/03</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
+            <SimpleData name="Observaci">En alquiler</SimpleData>
+            <SimpleData name="Dias_trans">74.35517163190</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">45</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.6323589397717,-24.2359839049232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">7758241.00000000000</SimpleData>
+            <SimpleData name="cedula">7758241</SimpleData>
+            <SimpleData name="Cédula_1">7758241.00000000000</SimpleData>
+            <SimpleData name="N">208.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CERAFINA  TATUGI</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
@@ -1127,18 +784,19 @@
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
             <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">985901733</SimpleData>
-            <SimpleData name="Vivienda_L">-24.20831500000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67714670000</SimpleData>
+            <SimpleData name="Teléfono">1234567890</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20869830000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67762330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22199801000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70674613000</SimpleData>
+            <SimpleData name="Parcela_La">-24.21935191000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70903585000</SimpleData>
             <SimpleData name="Grupo_Impl">G2</SimpleData>
             <SimpleData name="Grupo_de_P">H-P3-P10P10-XX-XX</SimpleData>
             <SimpleData name="Jornales">4.00000000000</SimpleData>
             <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">Si</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -1149,133 +807,83 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">39.52803240740</SimpleData>
+            <SimpleData name="Dias_trans">39.59479166670</SimpleData>
             <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">206</SimpleData>
+            <SimpleData name="OBJECTID_1">208</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.7067461335712,-24.2219980111509,0
+            -55.7090358470288,-24.2193519081127,0
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.22">
+      <Placemark id="Distrito_VILLA_YGATIM__.15">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">8146782.00000000000</SimpleData>
-            <SimpleData name="cedula">8146782</SimpleData>
-            <SimpleData name="Cédula_1">8146782.00000000000</SimpleData>
-            <SimpleData name="N_">27.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MABEL ELISA TAPARI GONZALEZ</SimpleData>
+            <SimpleData name="Cédula">6780460.00000000000</SimpleData>
+            <SimpleData name="cedula">6780460</SimpleData>
+            <SimpleData name="Cédula_1">6780460.00000000000</SimpleData>
+            <SimpleData name="N">25.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ESTERVINA MBRIKUGI</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ITANARAMI 8 DE DICIEMBRE</SimpleData>
-            <SimpleData name="Teléfono">0981153533</SimpleData>
-            <SimpleData name="Vivienda_L">-24.08974870000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.69994530000</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ARROYO BANDERA</SimpleData>
+            <SimpleData name="Teléfono">0985571899</SimpleData>
+            <SimpleData name="Vivienda_L">-24.10396740000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.54881460000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
             <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.09337782000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.70370155000</SimpleData>
+            <SimpleData name="Parcela_La">-24.10573852000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.54420550000</SimpleData>
             <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
             <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">9/6/2026</SimpleData>
+            <SimpleData name="Monitorear">SI</SimpleData>
+            <SimpleData name="Fecha_de_M">3/3/2026</SimpleData>
             <SimpleData name="F__de_pren">60</SimpleData>
             <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/13</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/21</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
-            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones establecidas. Se visualiza adem?s que en algunas l?neas de plantaci?n no se completaron la reposici?n de plantines faltantes</SimpleData>
-            <SimpleData name="Dias_trans">34.47901620370</SimpleData>
+            <SimpleData name="Situaci_12">En el momento de la fiscalizaci?n la parcela se encuentra  libre de malezas, pero los plantines nativos fueron  perjudicando por la pasada de rastras que elimin? casi la totalidad adem?s con el da?o que le caus? la aplicaci?n de  herbicidas bajo un</SimpleData>
+            <SimpleData name="Dias_trans">26.42682870370</SimpleData>
             <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">27</SimpleData>
+            <SimpleData name="OBJECTID_1">25</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.7037015484915,-24.0933778246943,0
+            -55.5442054958449,-24.1057385238356,0
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.23">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
-            <SimpleData name="Cédula">4630091.00000000000</SimpleData>
-            <SimpleData name="cedula">4630091</SimpleData>
-            <SimpleData name="Cédula_1">4630091.00000000000</SimpleData>
-            <SimpleData name="N_">31.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CRISTINA MBYVANGI MBEPIGI DE CHEVUGI</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
-            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
-            <SimpleData name="Teléfono">0982218161</SimpleData>
-            <SimpleData name="Vivienda_L">-24.21154650000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67216140000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-24.22111319000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.71140176000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">H-P1-P4P4-XX-XX</SimpleData>
-            <SimpleData name="Jornales">4.00000000000</SimpleData>
-            <SimpleData name="Monto">446008.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
-            <SimpleData name="Lote">H</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
-            <SimpleData name="Fecha_visi">2026/07/14</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">33.44931712960</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">31</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7114017562132,-24.2211131891025,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.24">
+      <Placemark id="Distrito_VILLA_YGATIM__.16">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
             <SimpleData name="Cédula">6349352.00000000000</SimpleData>
             <SimpleData name="cedula">6349352</SimpleData>
             <SimpleData name="Cédula_1">6349352.00000000000</SimpleData>
-            <SimpleData name="N_">33.00000000000</SimpleData>
+            <SimpleData name="N">33.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">ANDREA MBECHEPEGI PAYVAGI DE DUARTE</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -1298,6 +906,7 @@
             <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
             <SimpleData name="Jornales">4.00000000000</SimpleData>
             <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -1308,6 +917,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -1322,13 +932,123 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_VILLA_YGATIM__.25">
+      <Placemark id="Distrito_VILLA_YGATIM__.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">4630091.00000000000</SimpleData>
+            <SimpleData name="cedula">4630091</SimpleData>
+            <SimpleData name="Cédula_1">4630091.00000000000</SimpleData>
+            <SimpleData name="N">31.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CRISTINA MBYVANGI MBEPIGI DE CHEVUGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0982218161</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21154650000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67216140000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22111319000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.71140176000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P1-P4P4-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/14</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">33.44931712960</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">31</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7114017562132,-24.2211131891025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6349396.00000000000</SimpleData>
+            <SimpleData name="cedula">6349396</SimpleData>
+            <SimpleData name="Cédula_1">6349396.00000000000</SimpleData>
+            <SimpleData name="N">28.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FATIMA CHERYGI FUAKYMBAGI FAAGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0985223081</SimpleData>
+            <SimpleData name="Vivienda_L">-24.22229600000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.71191840000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22036306000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.71099713000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P1-P4P4-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/14</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">33.44650462960</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">28</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7109971308623,-24.2203630580843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.19">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
             <SimpleData name="Cédula">6349351.00000000000</SimpleData>
             <SimpleData name="cedula">6349351</SimpleData>
             <SimpleData name="Cédula_1">6349351.00000000000</SimpleData>
-            <SimpleData name="N_">209.00000000000</SimpleData>
+            <SimpleData name="N">209.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">MARIANELA AIRAGI ACHIPURANGI FUA AGI</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -1351,6 +1071,7 @@
             <SimpleData name="Grupo_de_P">H-P3-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">Si</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
@@ -1361,6 +1082,7 @@
             <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
             <SimpleData name="Situaci_12">En el momento del monitoreo no se observa plantines sobre vivientes por causas de las hormigas cortadoras, recomendamos realizar reposiciones de las plantas perdidas.</SimpleData>
@@ -1372,6 +1094,391 @@
         <Point>
           <coordinates>
             -55.6845769457064,-24.2073643027439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">5837233.00000000000</SimpleData>
+            <SimpleData name="cedula">5837233</SimpleData>
+            <SimpleData name="Cédula_1">5837233.00000000000</SimpleData>
+            <SimpleData name="N">29.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CELESTINA NAMBUGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0986556942</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20866950000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67615750000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.19918591000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.67656430000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">10.15275462960</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">29</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.6765642975116,-24.1991859125993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">4173682.00000000000</SimpleData>
+            <SimpleData name="cedula">4173682</SimpleData>
+            <SimpleData name="Cédula_1">4173682.00000000000</SimpleData>
+            <SimpleData name="N">34.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANTONIA MBYVANGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">No tiene</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20920180000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67851560000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21016055000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.67837013000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">10.21402777780</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">34</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.6783701291937,-24.2101605450795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">8146782.00000000000</SimpleData>
+            <SimpleData name="cedula">8146782</SimpleData>
+            <SimpleData name="Cédula_1">8146782.00000000000</SimpleData>
+            <SimpleData name="N">27.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MABEL ELISA TAPARI GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ITANARAMI 8 DE DICIEMBRE</SimpleData>
+            <SimpleData name="Teléfono">0981153533</SimpleData>
+            <SimpleData name="Vivienda_L">-24.08974870000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.69994530000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.09337782000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70370155000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">9/6/2026</SimpleData>
+            <SimpleData name="F__de_pren">60</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/13</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
+            <SimpleData name="Situaci_12">Al momento del monitoreo de mantenimiento y asistencia t?cnica se observa que la parcela no cumple con las especificaciones establecidas. Se visualiza adem?s que en algunas l?neas de plantaci?n no se completaron la reposici?n de plantines faltantes</SimpleData>
+            <SimpleData name="Dias_trans">34.47901620370</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">27</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7037015484915,-24.0933778246943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.23">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">5170881.00000000000</SimpleData>
+            <SimpleData name="cedula">5170881</SimpleData>
+            <SimpleData name="Cédula_1">5170881.00000000000</SimpleData>
+            <SimpleData name="N">206.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VENICIA KUAREMINIGI CHACHUGI TORANGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">985901733</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20831500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67714670000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22199801000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70674613000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P3-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">Si</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.52803240740</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">206</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7067461335712,-24.2219980111509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.24">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6860001.00000000000</SimpleData>
+            <SimpleData name="cedula">6860001</SimpleData>
+            <SimpleData name="Cédula_1">6860001.00000000000</SimpleData>
+            <SimpleData name="N">30.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SARA CHIVURAGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0984178761</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20872690000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67612500000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.22341739000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.70819753000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/08</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">39.52811342590</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">30</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7081975296101,-24.2234173937429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.25">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">5345309.00000000000</SimpleData>
+            <SimpleData name="cedula">5345309</SimpleData>
+            <SimpleData name="Cédula_1">5345309.00000000000</SimpleData>
+            <SimpleData name="N">23.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">GLORIA KAJAMINIGI MBEPEGI EIRAGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0984063105</SimpleData>
+            <SimpleData name="Vivienda_L">-24.21082870000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67153700000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21060943000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.67106057000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/20</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">27.50980324070</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">23</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.6710605729574,-24.2106094334589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_YGATIM__.26">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_YGATIM__.schema">
+            <SimpleData name="Cédula">6314557.00000000000</SimpleData>
+            <SimpleData name="cedula">6314557</SimpleData>
+            <SimpleData name="Cédula_1">6314557.00000000000</SimpleData>
+            <SimpleData name="N">35.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DORKA KREMBEGI TAKUANGI MBYVANGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA YGATIM?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG CHUPA POU</SimpleData>
+            <SimpleData name="Teléfono">0983753324</SimpleData>
+            <SimpleData name="Vivienda_L">-24.20915390000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.67881700000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.21024331000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.67932934000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">H-P2-P10P10-XX-XX</SimpleData>
+            <SimpleData name="Jornales">4.00000000000</SimpleData>
+            <SimpleData name="Monto">446008.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">H</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/06</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">10.22151620370</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">35</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.6793293381534,-24.210243312137,0
           </coordinates>
         </Point>
       </Placemark>

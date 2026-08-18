@@ -5,7 +5,7 @@
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="cedula" type="string"/>
       <SimpleField name="Cédula_1" type="double"/>
-      <SimpleField name="N_" type="double"/>
+      <SimpleField name="N" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
@@ -29,6 +29,7 @@
       <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Adjudicado" type="string"/>
@@ -40,6 +41,7 @@
       <SimpleField name="Estado_FAO" type="string"/>
       <SimpleField name="Etapa_de_i" type="string"/>
       <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
       <SimpleField name="Cumple_sup" type="string"/>
       <SimpleField name="Estado_mon" type="string"/>
       <SimpleField name="Situaci_12" type="string"/>
@@ -56,7 +58,7 @@
             <SimpleData name="Cédula">5470984.00000000000</SimpleData>
             <SimpleData name="cedula">5470984</SimpleData>
             <SimpleData name="Cédula_1">5470984.00000000000</SimpleData>
-            <SimpleData name="N_">112.00000000000</SimpleData>
+            <SimpleData name="N">112.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">ISMAEL GARCETE RAMIREZ</SimpleData>
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -79,6 +81,7 @@
             <SimpleData name="Grupo_de_P">G-P5-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
@@ -89,6 +92,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/05/20</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>

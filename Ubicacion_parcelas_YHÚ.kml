@@ -5,7 +5,7 @@
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="cedula" type="string"/>
       <SimpleField name="Cédula_1" type="double"/>
-      <SimpleField name="N_" type="double"/>
+      <SimpleField name="N" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
@@ -29,6 +29,7 @@
       <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Adjudicado" type="string"/>
@@ -40,6 +41,7 @@
       <SimpleField name="Estado_FAO" type="string"/>
       <SimpleField name="Etapa_de_i" type="string"/>
       <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
       <SimpleField name="Cumple_sup" type="string"/>
       <SimpleField name="Estado_mon" type="string"/>
       <SimpleField name="Situaci_12" type="string"/>
@@ -53,70 +55,10 @@
       <Placemark id="Distrito_YH__.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YH__.schema">
-            <SimpleData name="Cédula">7159493.00000000000</SimpleData>
-            <SimpleData name="cedula">7159493</SimpleData>
-            <SimpleData name="Cédula_1">7159493.00000000000</SimpleData>
-            <SimpleData name="N_">211.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">VERONICA  GIMENEZ MERELES</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">YH?</SimpleData>
-            <SimpleData name="Localidad">CA?ADITA</SimpleData>
-            <SimpleData name="Teléfono">981082052</SimpleData>
-            <SimpleData name="Vivienda_L">-25.17418500000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.91607000000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-25.17474081000</SimpleData>
-            <SimpleData name="Parcela_Lo">-55.90746331000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">D-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">21/5/2026</SimpleData>
-            <SimpleData name="F__de_pren">70</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/13</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">??????NO CUMPLE??????</SimpleData>
-            <SimpleData name="Situaci_12">Cuenta con 2 parcelas, una parcela se encuentra en buenas condiciones, limpia  con bue desarrollo y prendimiento de las plantas de c?tricos, nativas y de r?pido crecimiento.  La otra parcela se encuentra enmalezada y con ataque de hormigas, no presenta</SimpleData>
-            <SimpleData name="Dias_trans">3.53774305555</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">211</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Point>
-            <coordinates>
-              -55.9172558979933,-25.1708560252294,0
-            </coordinates>
-          </Point>
-          <Point>
-            <coordinates>
-              -55.9074633127294,-25.1747408137318,0
-            </coordinates>
-          </Point>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_YH__.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_YH__.schema">
             <SimpleData name="Cédula">5464942.00000000000</SimpleData>
             <SimpleData name="cedula">5464942</SimpleData>
             <SimpleData name="Cédula_1">5464942.00000000000</SimpleData>
-            <SimpleData name="N_">204.00000000000</SimpleData>
+            <SimpleData name="N">204.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">CHENI ROSA PAREDES ALVARES</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -139,16 +81,18 @@
             <SimpleData name="Grupo_de_P">D-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Monitorear">SI</SimpleData>
             <SimpleData name="Fecha_de_M">21/5/2026</SimpleData>
             <SimpleData name="F__de_pren">40</SimpleData>
             <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/08/13</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">?????? NO CUMPLE ??????</SimpleData>
             <SimpleData name="Situaci_12">Parcela enmalezadas y con ataque severo de hormigas cortadoras, falta replantar  los plantines afectados</SimpleData>
@@ -162,6 +106,68 @@
             -55.9354576910184,-25.1558695806424,0
           </coordinates>
         </Point>
+      </Placemark>
+      <Placemark id="Distrito_YH__.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YH__.schema">
+            <SimpleData name="Cédula">7159493.00000000000</SimpleData>
+            <SimpleData name="cedula">7159493</SimpleData>
+            <SimpleData name="Cédula_1">7159493.00000000000</SimpleData>
+            <SimpleData name="N">211.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VERONICA  GIMENEZ MERELES</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
+            <SimpleData name="Distrito">YH?</SimpleData>
+            <SimpleData name="Localidad">CA?ADITA</SimpleData>
+            <SimpleData name="Teléfono">981082052</SimpleData>
+            <SimpleData name="Vivienda_L">-25.17418500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.91607000000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.17474081000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.90746331000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
+            <SimpleData name="Monitorear">SI</SimpleData>
+            <SimpleData name="Fecha_de_M">21/5/2026</SimpleData>
+            <SimpleData name="F__de_pren">70</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear reposicion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/13</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">??????NO CUMPLE??????</SimpleData>
+            <SimpleData name="Situaci_12">Cuenta con 2 parcelas, una parcela se encuentra en buenas condiciones, limpia  con bue desarrollo y prendimiento de las plantas de c?tricos, nativas y de r?pido crecimiento.  La otra parcela se encuentra enmalezada y con ataque de hormigas, no presenta</SimpleData>
+            <SimpleData name="Dias_trans">3.53774305555</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">211</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -55.9172558979933,-25.1708560252294,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.9074633127294,-25.1747408137318,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
       </Placemark>
     </Document>
   </Document>

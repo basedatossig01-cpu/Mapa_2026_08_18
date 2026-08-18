@@ -5,7 +5,7 @@
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="cedula" type="string"/>
       <SimpleField name="Cédula_1" type="double"/>
-      <SimpleField name="N_" type="double"/>
+      <SimpleField name="N" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
@@ -29,6 +29,7 @@
       <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Adjudicado" type="string"/>
@@ -40,6 +41,7 @@
       <SimpleField name="Estado_FAO" type="string"/>
       <SimpleField name="Etapa_de_i" type="string"/>
       <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
       <SimpleField name="Cumple_sup" type="string"/>
       <SimpleField name="Estado_mon" type="string"/>
       <SimpleField name="Situaci_12" type="string"/>
@@ -53,63 +55,10 @@
       <Placemark id="Distrito_MBARACAYU.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">6280666.00000000000</SimpleData>
-            <SimpleData name="cedula">6280666</SimpleData>
-            <SimpleData name="Cédula_1">6280666.00000000000</SimpleData>
-            <SimpleData name="N_">109.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ANUNCIA MENDOZA ALFONSO</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0985446602</SimpleData>
-            <SimpleData name="Vivienda_L">-25.08663410000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.84595860000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Parcela_La">-25.08660592000</SimpleData>
-            <SimpleData name="Parcela_Lo">-54.84547567000</SimpleData>
-            <SimpleData name="Grupo_Impl">G2</SimpleData>
-            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Adjudicado">SI</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Monitorear">NO</SimpleData>
-            <SimpleData name="Fecha_de_M">-</SimpleData>
-            <SimpleData name="F__de_pren">-</SimpleData>
-            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
-            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Fecha_visi">2026/08/14</SimpleData>
-            <SimpleData name="Cumple_sup">SI</SimpleData>
-            <SimpleData name="Estado_mon">-</SimpleData>
-            <SimpleData name="Situaci_12">-</SimpleData>
-            <SimpleData name="Dias_trans">2.35832175926</SimpleData>
-            <SimpleData name="Prioridad">ALTA</SimpleData>
-            <SimpleData name="OBJECTID_1">109</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -54.8454756670912,-25.086605924614,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
             <SimpleData name="Cédula">6521692.00000000000</SimpleData>
             <SimpleData name="cedula">6521692</SimpleData>
             <SimpleData name="Cédula_1">6521692.00000000000</SimpleData>
-            <SimpleData name="N_">214.00000000000</SimpleData>
+            <SimpleData name="N">214.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">MARLENE CANDIDA VILLALBA ESCOBAR</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -132,6 +81,7 @@
             <SimpleData name="Grupo_de_P">F-P2-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
@@ -142,6 +92,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/08/12</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -156,13 +107,13 @@
           </coordinates>
         </Point>
       </Placemark>
-      <Placemark id="Distrito_MBARACAYU.3">
+      <Placemark id="Distrito_MBARACAYU.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
             <SimpleData name="Cédula">5155619.00000000000</SimpleData>
             <SimpleData name="cedula">5155619</SimpleData>
             <SimpleData name="Cédula_1">5155619.00000000000</SimpleData>
-            <SimpleData name="N_">107.00000000000</SimpleData>
+            <SimpleData name="N">107.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">ISABELINA ANDREA VILLALBA BENITEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
@@ -185,6 +136,7 @@
             <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
@@ -195,6 +147,7 @@
             <SimpleData name="Estado_FAO">Monitorear</SimpleData>
             <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Fecha_visi">2026/08/12</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Cumple_sup">SI</SimpleData>
             <SimpleData name="Estado_mon">-</SimpleData>
             <SimpleData name="Situaci_12">-</SimpleData>
@@ -206,6 +159,116 @@
         <Point>
           <coordinates>
             -54.8146221230641,-25.1132657463362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_MBARACAYU.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
+            <SimpleData name="Cédula">2538189.00000000000</SimpleData>
+            <SimpleData name="cedula">2538189</SimpleData>
+            <SimpleData name="Cédula_1">2538189.00000000000</SimpleData>
+            <SimpleData name="N">110.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA ANASTACIA AGUILERA DE BLANCO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">MBARACAYU</SimpleData>
+            <SimpleData name="Localidad">PUERTO INDIO</SimpleData>
+            <SimpleData name="Teléfono">0973994749</SimpleData>
+            <SimpleData name="Vivienda_L">-24.92028100000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.48221120000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.91942976000</SimpleData>
+            <SimpleData name="Parcela_Lo">-54.48228943000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">#N/A</SimpleData>
+            <SimpleData name="F__de_pren">#N/A</SimpleData>
+            <SimpleData name="Estado_FAO">Verificar Posible desercion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/03</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Observaci">La beneficiaria  no desea seguir con el proyecto</SimpleData>
+            <SimpleData name="Dias_trans">13.47763167820</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">110</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -54.4822894295993,-24.9194297612578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_MBARACAYU.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
+            <SimpleData name="Cédula">6280666.00000000000</SimpleData>
+            <SimpleData name="cedula">6280666</SimpleData>
+            <SimpleData name="Cédula_1">6280666.00000000000</SimpleData>
+            <SimpleData name="N">109.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANUNCIA MENDOZA ALFONSO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">MBARACAYU</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
+            <SimpleData name="Teléfono">0985446602</SimpleData>
+            <SimpleData name="Vivienda_L">-25.08663410000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.84595860000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.08660592000</SimpleData>
+            <SimpleData name="Parcela_Lo">-54.84547567000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/14</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">2.35832175926</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">109</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -54.8454756670912,-25.086605924614,0
           </coordinates>
         </Point>
       </Placemark>
